@@ -17,13 +17,10 @@ class Kendaraan {
 class Mobil extends Kendaraan {
     constructor() {
         super('Mobil');
-
     }
-
     bergerak() {
 
         console.log(`${this.jenis} bergerak dengan roda.`);
-
     }
 
 }
@@ -33,13 +30,10 @@ class Kapal extends Kendaraan {
     constructor() {
 
         super('Kapal');
-
     }
-
     bergerak() {
 
         console.log(`${this.jenis} bergerak di atas air.`);
-
     }
 
 }
@@ -49,13 +43,11 @@ class Sepeda extends Kendaraan {
     constructor() {
 
         super('Sepeda');
-
     }
 
     bergerak() {
 
         console.log(`${this.jenis} bergerak menggunakan kaki.`);
-
     }
 
 }
